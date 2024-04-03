@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            /* box-sizing: 10px; */
+            
+            border-radius: 20px;
+            border: 3px solid;
+
+            width: 500px; 
+            height: 500px;
+            margin: auto;
+            position: absolute;
+            top: 0; bottom: 0; left: 0; right: 0;
+            /* background: rgba(red, green, blue, alpha);
+            backdrop-filter: blur(10px); */
+            box-shadow: 20px 15px antiquewhite;
+            color:black;
+
+        }
+        .next-button{
+            position: absolute; 
+            bottom: 40px; 
+            left: 50%; 
+            transform: translateX(-50%);
+            
+            padding: 15px 32px;
+            text-align:center; 
+            background-color: #3498db; 
+            border: 1px solid black; 
+            border-radius: 20px; 
+            cursor: pointer;
+            width: 100px;
+            height: 50px ;
+            font-size: 20px;
+        
+        }
+        .next-button:hover {
+            background-color: #2980b9; /* Darker background color */
+        }
+        .para{
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: larger;
+            font-weight: 200;
+            font-style: normal;
+        }
+
+        .centered-list {
+            display: inline-block; 
+            padding: 0; 
+            margin: 0 auto; 
+            text-align: left; 
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <h1 align="center">Instructions</h1>
+    <div class="para">
+        <ul class="centered-list">
+            <li>This is instructions page</li>
+        </ul>
+   </div>
+
+    <div>
+   <button type="button" id="nextBtn" onclick="window.location.href='{{ url_for(form2.html) }}';">NEXT</button>
+    
+    
+    </div>
+    <!-- <script>
+        // Function to send a POST request to start the action
+        function startAction() {
+            $.post("/inst", {action: "next"});
+        }
+
+        // Event listeners for button clicks
+        document.getElementById("nextBtn").addEventListener("click", startAction);
+        
+    </script> -->
+</body>
+</html>

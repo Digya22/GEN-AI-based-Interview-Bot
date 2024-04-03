@@ -1,0 +1,70 @@
+[
+  {
+    "role": "user",
+    "message": "My name is AMAN SHARMA and had done Master of Science in Computer Science from Government Polytechnic Kashipur college with a Good \n                    gpa.I have following ['Cascading Style Sheets (CSS)', 'HyperText Markup Language (HTML)', 'C (Programming Language)', 'Microsoft Excel', 'Python (Programming Language)', 'Microsoft SharePoint', 'Library Management', 'Customer Relationship Management', 'JavaScript (Programming Language)', 'Customer Service', 'Java (Programming Language)', 'Management', 'Sales', 'Library', 'Workbench', 'Computer Science', 'Workflows', 'WordPress', 'Calculations'] and I have also done courses like ['Technologically adept a positive attitude willingness and motivation to learn new programs', 'GP Kashipur to manage student admissions semester details course', 'Diploma Computer Science Engineering', 'Java Programming', '40 Hours Course by Slog Solution', 'Python Programming', '40 Hours Course by Slog Solution', 'Basic Computer Course DCA'].\n                        I'm here to give technical Interview and this is my self summary Engineering Hardworking Student seeking employment. Ready to utilize my skills and passion to further the mission of a company. Technologically adept, a positive attitude, willingness and motivation to learn new programs."
+  },
+  {
+    "role": "user",
+    "message": "Start the interview."
+  },
+  {
+    "role": "assistant",
+    "message": "Can you please elaborate on your experience with the programming languages CSS, HTML, Python, and Java, and how you have utilized them in your previous projects or coursework?"
+  },
+  {
+    "role": "user",
+    "message": "\u0628\u0648\u0644 \u0628\u0648\u0644"
+  },
+  {
+    "role": "assistant",
+    "message": "I'm sorry, but I am unable to understand the language you have used. Can you please respond in English for a more productive conversation?"
+  },
+  {
+    "role": "user",
+    "message": "Okay. Let's start the interview."
+  },
+  {
+    "role": "assistant",
+    "message": "Thank you. Can you please elaborate on your experience with the programming languages CSS, HTML, Python, and Java, and how you have utilized them in your previous projects or coursework?"
+  },
+  {
+    "role": "user",
+    "message": "\u0c2e\u0c47 \u0c15\u0c4b\u0c32\u0c46 \u0c30\u0c15\u0c4d \u0c2a\u0c41\u0c28\u0c4d \u0c38\u0c48 \u0c26\u0c4d \u0c38\u0c47. \u0c15\u0c4d\u0c15\u0c41\u0c28\u0c3f \u0c32\u0c18\u0c42 \u0c2c\u0c4d\u0c23, \u0c1c\u0c47\u0c15\u0c4b\u0c1c\u0c47 \u0c2a\u0c47\u0c31\u0c4d. \u0c38\u0c24\u0c4b Operator."
+  },
+  {
+    "role": "assistant",
+    "message": "I'm sorry, I am unable to understand the language you have used. Can you please respond in English for a more productive conversation?"
+  },
+  {
+    "role": "user",
+    "message": "HTML is the skeleton of the webpages. It is used to provide the basic tags like form, images, videos. And CSS is used for styling the webpages. It gives the vibrant colors and animations to the webpages, which makes it very interactive to the client."
+  },
+  {
+    "role": "assistant",
+    "message": "That's a great explanation! How do you ensure that the HTML and CSS you write follow best practices for web development, such as semantic markup, accessibility, and responsiveness?"
+  },
+  {
+    "role": "user",
+    "message": "So, the best practices in html is to write the code more neatly and use semantic tags like"
+  },
+  {
+    "role": "assistant",
+    "message": "Great point about using semantic tags for better structure in HTML. How do you approach optimizing the performance of web pages in terms of loading times and overall user experience while maintaining clean and semantic HTML code?"
+  },
+  {
+    "role": "user",
+    "message": "I don't have much knowledge about this."
+  },
+  {
+    "role": "assistant",
+    "message": "That's understandable. In your experience with web development, have you encountered any challenges related to website performance or user experience that you would like to learn more about or improve upon in future projects?"
+  },
+  {
+    "role": "user",
+    "message": "No, I have not faced any such problems."
+  },
+  {
+    "role": "assistant",
+    "message": "That's good to hear. In your future projects, how do you plan to stay updated with the latest trends and best practices in web development to ensure the efficiency and effectiveness of your work?"
+  }
+]
