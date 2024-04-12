@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Dosis:wght@200..800&family=Merienda:wght@300..900&family=Sacramento&display=swap');
+
+        </style>
+    <link rel="stylesheet" href="{{url_for('static',filename='/styles/style.css')}}">
+</head>
+<body >
+    <!-- <div class="loader">
+        <div class="counter"><h5 id="cnt">0</h5><h5>- 100</h5></div>
+        <div class="text">
+            <div class="line"><h1>Shape</h1></div>
+            <div class="line"><h1>Your</h1></div>
+            <div class="line" id="line3"><h1>Career</h1></div>
+        </div>
+    </div> -->
+    <div id="main">
+
+        <div class="container">
+            <div class="mouseDiv">
+            
+            </div>
+            <div class="header">
+                <div class="line"><h1>GenAI</h1></div>
+                <div class="line"><h3 id="innerHeading"></h3></div>
+            </div>
+            <div id="motoText">
+                <svg id="erase" width="204" height="47" viewBox="0 0 204 47" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17.9749 42.9422C54.249 42.3002 90.4537 39.6141 126.725 38.8584C157.055 38.2265 66.4311 31.5977 36.1252 30.237C25.8864 29.7773 20.2246 29.6075 10.7148 29.4052C8.77352 29.3639 3.27598 30.331 4.89159 29.2539C7.73259 27.3599 11.6926 28.6236 15.1011 28.422C31.3416 27.4616 49.2669 26.6327 65.2412 25.8507C98.8654 24.2048 132.494 22.6992 166.051 19.9519C171.046 19.5429 176.067 19.3251 181.025 18.5906C189.112 17.3926 164.681 19.1349 156.522 19.6494C121.403 21.8641 16.2161 29.7749 51.4016 29.3295C76.9739 29.0058 102.608 27.3369 128.086 25.2457C142.169 24.0899 184.233 20.8162 170.135 19.8763C163.519 19.4352 144.315 22.6901 150.245 19.725C153.993 17.8508 158.613 19.2552 162.799 19.0444C172.659 18.5478 182.516 18.0062 192.369 17.3806C229.524 15.0215 118.277 26.4557 81.047 26.4557C61.56 26.4557 119.594 20.6044 138.977 18.5906C143.331 18.1383 148.273 18.2376 152.362 16.3975C159.209 13.3164 137.559 13.4577 130.053 13.2968C90.0272 12.4391 49.2694 15.8454 9.35353 12.9943C2.13251 12.4785 23.7659 11.6013 30.9826 11.028C59.8009 8.73873 88.6857 6.19431 117.574 4.97794C118.537 4.93743 133.026 3.18874 128.238 5.58295C126.098 6.65297 123.273 7.54923 126.876 7.54923C137.767 7.54923 148.657 7.54923 159.547 7.54923" stroke="#EC1B1B" stroke-opacity="0.74" stroke-width="8" stroke-linecap="round"/>
+                    </svg>
+                    
+                    
+                <h4>Goodbye Traditional Interviews</h4>
+                <h1>Welcome to the</h1>
+                <h1> Future of Hiring</h1>
+            </div>
+            <div class="btnDiv">
+                <a href="cv_parser.html"> <button>Get Started</button></a>
+                
+            </div>
+            <div class="quotes">
+                <div class="text"></div>
+            </div>
+            <div class="background">
+                <!-- <img id="logo" src="../static/styles/logo1.png" alt="logo" > -->
+                <!-- <svg id="backoutline" width="1396" height="777" viewBox="0 0 1396 977" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 976V128C1 57.8598 57.8598 1 128 1H1346.5C1373.01 1 1394.5 22.4903 1394.5 49V828C1394.5 909.738 1328.24 976 1246.5 976H1Z" stroke="url(#paint0_linear_27_2)" stroke-width="2"/>
+                    <defs>
+                    <linearGradient id="paint0_linear_27_2" x1="697.75" y1="1" x2="697.75" y2="976" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#F302F8"/>
+                    <stop offset="1" stop-color="#1300F3"/>
+                    </linearGradient>
+                    </defs>
+                    </svg> -->
+                    
+                <!-- <svg id="esc" xmlns="http://www.w3.org/2000/svg" width="53.25945" height="27.96983" viewBox="0 0 53.25945 27.96983" creator="Katerina Limpitsouni"><path d="M43.93037,.30215c-11.3808,.17744-22.77649,.19812-34.15352,.53622-2.15967,.06418-4.41931,.30374-6.205,1.63549C1.85453,3.75462,.84376,5.78141,.40472,7.84149-.10919,10.25283-.01162,12.79247,.05147,15.24275c.05974,2.32026,.2834,4.68732,1.20938,6.84046,.83796,1.94846,2.22313,3.69738,4.16591,4.62757,2.14901,1.02894,4.58799,1.07856,6.92376,1.1597,5.5106,.19141,11.03123,.10633,16.53325-.25613,4.82412-.31781,9.95918-.51975,14.60897-1.96394,3.92504-1.21909,7.08916-3.64781,8.43882-7.6356,.83022-2.45304,1.07354-5.15119,1.26661-7.72072,.18215-2.42421,.03444-5.00656-1.50533-7.00693C48.24383-1.19357,42.03101-.14612,37.26853,.96054c-.93989,.2184-.54204,1.66503,.39876,1.44642,4.08265-.94869,9.64221-2.1181,12.74006,1.65589,1.42521,1.73628,1.45072,4.10294,1.2908,6.23124-.15939,2.12135-.37346,4.28745-.92168,6.34739-2.35445,8.84684-13.25486,8.84512-20.67932,9.3884-4.7715,.34915-9.55818,.4907-14.34197,.42359-4.33339-.06079-9.91153,.50113-12.5019-3.75312-1.1553-1.89739-1.53462-4.11948-1.65644-6.30638-.12474-2.23927-.19737-4.57399,.04644-6.80663,.24076-2.20472,.98616-4.55573,2.84565-5.92588,1.74247-1.28393,4.02653-1.30296,6.10023-1.33947,11.11328-.19566,22.22755-.34656,33.34121-.51984,.9643-.01503,.96719-1.51508,0-1.5h0Z" fill="#2f2f2f" origin="undraw"/><path d="M14.4522,14.38196c2.2279,.33059,4.54652-1.36523,4.3927-3.74902-.15671-2.42844-2.50542-4.05647-4.83013-3.37693-2.54529,.74402-3.66415,3.34167-3.90518,5.77507-.24934,2.51725,.48423,5.20729,2.58025,6.77228,2.10104,1.56874,5.21839,1.30249,6.70453-.97083,.52975-.81035-.76847-1.56281-1.29521-.75708-.84963,1.29967-2.65696,1.56336-3.97675,.86623-1.61262-.85181-2.4293-2.61426-2.54281-4.37704-.10957-1.70144,.19197-3.75664,1.44677-5.01817,1.13221-1.13828,3.10506-1.40111,4.00492,.1468,.88183,1.51691-.39287,3.5075-2.18033,3.24227-.40375-.05991-.80118,.10102-.92259,.52383-.10129,.35274,.12378,.86323,.52383,.92259h0Z" fill="#2f2f2f"/><path d="M27.65808,7.49061c-1.5811-.35516-3.47915-.71291-4.87809,.35127-1.08177,.8229-1.73331,2.4298-.92813,3.66419,.88403,1.35527,2.49893,1.07076,3.81917,1.57997,1.10124,.42474,1.8047,1.73772,1.58781,2.89067-.26556,1.41165-1.86572,2.28121-3.20991,1.92466-.93398-.24774-1.33243,1.19876-.39876,1.44642,2.87917,.76372,5.7484-1.85246,5.01784-4.79437-.34054-1.37135-1.37893-2.53157-2.73117-2.95814-.80984-.25546-3.14877-.15124-2.93836-1.50058,.30698-1.96863,2.95409-1.45118,4.26083-1.15765,.94022,.2112,1.34172-1.2346,.39876-1.44642h0Z" fill="#2f2f2f"/><path d="M37.60886,7.3978c-3.37205,.37627-6.01004,3.49007-5.49209,6.9119,.2434,1.60803,1.16503,3.08469,2.4588,4.05868,1.60753,1.21021,3.59034,1.2762,5.52461,1.23302,.96377-.02151,.96723-1.52159,0-1.5-1.55615,.03474-3.19033,.07012-4.52501-.85171-1.0207-.70498-1.71666-1.83572-1.9609-3.04325-.50283-2.48596,1.50874-5.03126,3.9946-5.30864,.40575-.04528,.74544-.31237,.75-.75,.00387-.37086-.34773-.79489-.75-.75h0Z" fill="#2f2f2f"/></svg> -->
+                <!-- <svg id="twoLines" xmlns="http://www.w3.org/2000/svg" width="90.29527" height="85.15975" viewBox="0 0 41.29527 35.15975" creator="Katerina Limpitsouni"><path d="M1.28265,20.45733c4.42197-4.39035,9.15867-8.45446,14.18155-12.1427,.77003-.56543,.02258-1.8677-.75708-1.29521C9.58056,10.7838,4.73564,14.9153,.22199,19.39667c-.68601,.6811,.37457,1.74185,1.06066,1.06066h0Z" fill="#2f2f2f" origin="undraw"/><path d="M39.98849,.19239C27.39392,11.05995,15.12057,22.29569,3.18566,33.88383c-.69382,.67366,.36741,1.73376,1.06066,1.06066C16.18123,23.35635,28.45458,12.12061,41.04915,1.25305c.7321-.63171-.33282-1.6887-1.06066-1.06066h0Z" fill="#2f2f2f"/></svg> -->
+                <!-- <svg id="codeLogo" xmlns="http://www.w3.org/2000/svg" width="44.28494" height="39.17435" viewBox="0 0 44.28494 39.17435" creator="Katerina Limpitsouni"><path d="M11.45669,8.60326C7.70942,12.63784,3.96215,16.67243,.21487,20.70701c-.41161,.44317-.19384,1.04747,.33095,1.25354,4.90866,1.92752,9.34686,4.87045,13.06078,8.61054,.68115,.68595,1.7419-.37462,1.06066-1.06066-3.9047-3.93223-8.567-6.97178-13.72268-8.9963l.33095,1.25354c3.74727-4.03459,7.49455-8.06917,11.24182-12.10376,.6563-.70662-.40201-1.76981-1.06066-1.06066h0Z" fill="#2f2f2f" origin="undraw"/><path d="M31.76759,9.66392c3.74727,4.03459,7.49455,8.06917,11.24182,12.10376l.33095-1.25354c-5.15569,2.02452-9.81796,5.06406-13.72268,8.9963-.68095,.68575,.37922,1.74691,1.06066,1.06066,3.71391-3.74009,8.15211-6.68302,13.06078-8.61054,.52479-.20607,.74256-.81037,.33095-1.25354-3.74727-4.03459-7.49455-8.06917-11.24182-12.10376-.65836-.70884-1.71724,.35374-1.06066,1.06066h0Z" fill="#2f2f2f"/><path d="M16.26421,38.67073C21.17972,26.08128,26.09523,13.49183,31.01074,.90239c.35126-.89962-1.09862-1.28953-1.44642-.39876-4.91551,12.58945-9.83102,25.17889-14.74653,37.76834-.35126,.89962,1.09862,1.28953,1.44642,.39876h0Z" fill="#2f2f2f"/></svg> -->
+                    <!-- <svg width="248" id="arrow" height="184" viewBox="0 0 248 184" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path id="path" d="M7.99999 43C88.8 -35.4 98.3333 102.333 93 181C42.6667 186.333 -41.2 185.8 26 141C93.2 96.2 201.333 53 247 37M247 37L175 1M247 37L195 129" stroke="black"/>
+                        </svg> -->
+                        <svg id="wavyline" width="620" height="415" viewBox="0 0 620 415" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.5 414H325C363.108 414 394 383.108 394 345V268.5C394 267.06 394 265.642 394 264.247C394 224.621 426.124 192.5 465.75 192.5V192.5C505.376 192.5 537.5 160.376 537.5 120.75V67.5V67.5C537.5 31.0492 567.049 1.5 603.5 1.5H620" stroke="url(#paint0_linear_28_5)" stroke-width="2"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_28_5" x1="310.25" y1="1.5" x2="310.25" y2="414" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#F302F8"/>
+                            <stop offset="1" stop-color="#1300F3"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                            <svg id="rectline" width="619" height="242" viewBox="0 0 619 242" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 0V152C1 201.153 40.8467 241 90 241H529C578.153 241 618 201.153 618 152V0" stroke="url(#paint0_linear_28_7)" stroke-width="2"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_28_7" x1="309.5" y1="0" x2="309.5" y2="241" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#F302F8"/>
+                                <stop offset="1" stop-color="#1300F3"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                                
+                                <svg id="back3" width="510" height="216" viewBox="0 0 510 216" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M408 215H508.5V91.5C508.5 41.7944 468.206 1.5 418.5 1.5L331.5 1.5L32.0938 1.5C15.1973 1.5 1.5 15.1973 1.5 32.0937C1.5 48.6105 14.8895 62 31.4062 62L203.5 62H255C297.25 62 331.5 96.2502 331.5 138.5C331.5 180.75 365.75 215 408 215Z" stroke="url(#paint0_linear_30_2)" stroke-width=".9"/>
+                                    <defs>
+                                    <linearGradient id="paint0_linear_30_2" x1="255" y1="215" x2="255" y2="1.5" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#FF891C"/>
+                                    <stop offset="1" stop-color="#E1D917"/>
+                                    </linearGradient>
+                                    </defs>
+                                    </svg>
+                                    <!-- <svg id="cirSVG" width="508" height="471" viewBox="0 0 508 471" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M507 255.25C507 306.711 450.219 362.834 376.02 421.539C294.421 486.096 178.07 483.844 94.8764 421.357C-28.494 328.692 -29.7985 143.649 92.599 49.7035C176.782 -14.9105 295.849 -16.4815 373.51 55.8403C455.222 131.934 507 200.339 507 255.25Z" stroke="url(#paint0_linear_31_13)" stroke-width="2"/>
+                                        <defs>
+                                        <linearGradient id="paint0_linear_31_13" x1="128.305" y1="176.076" x2="128.305" y2="323.464" gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#908D8A"/>
+                                        <stop offset="1" stop-color="#AFAFAB"/>
+                                        </linearGradient>
+                                        </defs>
+                                        </svg> -->
+                                        
+                                        <svg id="rect3" width="409" height="243" viewBox="0 0 409 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 243V101C1 45.7715 45.7715 1 101 1H308C363.228 1 408 45.7715 408 101V231.894" stroke="url(#paint0_linear_32_14)" stroke-width="1"/>
+                                            <defs>
+                                            <linearGradient id="paint0_linear_32_14" x1="173.762" y1="98.3261" x2="173.762" y2="159.089" gradientUnits="userSpaceOnUse">
+                                            <stop stop-color="#1664DA"/>
+                                            <stop offset="0.671" stop-color="#12EBE7"/>
+                                            </linearGradient>
+                                            </defs>
+                                            </svg>
+                                            
+                
+                <div class="cir" id="cir1"></div>
+                <div class="cir" id="cir2"></div>
+            </div>
+        </div>
+    </div>
+    <script src ="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.6/vivus.min.js" integrity="sha512-oUUeA7VTcWBqUJD/VYCBB4VeIE0g1pg5aRMiSUOMGnNNeCLRS39OlkcyyeJ0hYx2h3zxmIWhyKiUXKkfZ5Wryg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="{{url_for('static',filename='/script/script.js')}}"></script>
+</body>
+</html>

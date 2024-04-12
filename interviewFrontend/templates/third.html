@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='/styles/third.css')}}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oxanium:wght@200&display=swap');
+        </style>
+
+</head>
+<body>
+
+    <div id="main">
+    <div class="loader">
+        <div class="text">
+            <h3 id="loaderText"></h3>
+        </div>   
+        <div class="instr">Click Enter key to continue.</div> 
+    </div>
+
+    <div class="container">
+        <div class="mouseDiv">
+            
+        </div>
+        <div class="avatar">
+            <img src="../static/styles/interviewer.png" alt="">
+        </div>
+        <div class="button">
+            <button>Speak</button>
+        </div>
+    </div>
+
+    <div class="back">
+        <!-- <svg id="instrBox" width="445" height="345" viewBox="0 0 445 345" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 4C119.168 -3.04307 227.927 9.69872 335.556 27.1111C369.021 32.5252 403.907 41 438 41" stroke="black" stroke-width="3" stroke-linecap="round"/>
+            <path d="M6 2C5.19146 28.6975 2.44896 55.1018 2.30351 81.882C2.03164 131.939 2.25145 182.003 2.25145 232.06C2.25145 262.076 1.2688 292.34 3.18859 322.313C3.50373 327.233 4.12573 332.068 4.12573 337" stroke="black" stroke-width="3" stroke-linecap="round"/>
+            <path d="M4 337C50.965 336.073 97.1085 335.1 144.056 338.389C210.479 343.042 278.362 345.121 344.833 340.667C374.439 338.683 401.772 332.909 429.667 323.333C433.857 321.895 438.471 320 443 320" stroke="black" stroke-width="3" stroke-linecap="round"/>
+            <path d="M438 41C437.123 64.666 434.398 88.2328 433.222 111.889C431.83 139.882 432.453 167.889 431.556 195.889C430.66 223.831 430 251.711 430 279.667C430 289.782 429.804 299.904 430.556 310C430.737 312.438 430.133 325.566 433 327" stroke="black" stroke-width="3" stroke-linecap="round"/>
+        </svg> -->
+            
+        <!-- <svg id="arrow" width="543" height="473" viewBox="0 0 543 473" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5.32269 5.34265C82.2377 64.4024 159.405 128.57 242.715 178.556C273.352 196.938 315.861 193.379 344.657 172.351C375.498 149.829 412.671 56.0395 366.819 32.6454C339.363 18.6375 307.059 14.0925 276.578 14.9164C244.768 15.7761 235.856 54.0079 229.241 79.4502C213.516 139.931 229.234 207.317 263.104 258.869C294.451 306.581 342.687 342.75 391.108 371.803C413.751 385.389 436.133 385.1 461.669 385.1C477.663 385.1 492.124 386.956 506.347 379.426C508.126 378.484 504.224 378.469 502.978 374.108C502.46 372.293 471.269 359.978 467.343 357.797C456.743 351.908 444.313 347.09 433.125 342.195C403.147 329.079 495.808 362.516 528.331 366.13C533.819 366.739 543.271 371.924 532.94 374.817C473.437 391.478 422.51 429.461 375.506 468.072" stroke="black" stroke-width="9" stroke-linecap="round"/>
+        </svg> -->
+            
+    </div>
+</div>
+       <script type="text/javascript" src="interviewFrontend\database.json"></script>   
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src ="https://cdn.jsdelivr.net/npm/typelighterjs/typelighter.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vivus/0.4.6/vivus.min.js" integrity="sha512-oUUeA7VTcWBqUJD/VYCBB4VeIE0g1pg5aRMiSUOMGnNNeCLRS39OlkcyyeJ0hYx2h3zxmIWhyKiUXKkfZ5Wryg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script type="module" src="{{ url_for('static',filename='/script/third.js') }}"></script>
+</body>
+</html>

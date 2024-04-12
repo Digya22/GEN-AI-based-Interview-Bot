@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    cursor: none;
+}
+
+
+.loader{
+    position: absolute;
+    width: 100vw;
+    z-index: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #131313;
+    .text{
+    color: white;
+    font-size: 2.7rem;
+    font-family: "Jura";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 40vh;
+   }
+   .instr{
+    color:white;
+    font-family: "Jura";
+   }
+}
+
+#main .mouseDiv{
+    pointer-events: none;
+display: block;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    /* background-color: black; */
+    border: 1px solid black;
+    /* mix-blend-mode: darken; */
+    position: absolute;
+    /* position: ; */
+    border-radius: 50%;
+    /* z-index: 10; */
+
+    
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    /* filter: blur(10px); */
+    position: relative;
+    display: flex;
+
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -1; */
+    
+    .avatar{
+        margin-top: 2rem;
+        width: 50vw;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        img{
+            /* width: 60vw; */
+            height: 70vh;
+        }
+    }
+    .button{
+        width: 50vw;
+        height: 20vh;
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* z-index: 10; */
+        button{
+            width: 7vw;
+            height: 5vh;
+            background-color: #131313;
+            color: whitesmoke;
+            font-size: 1.2rem;
+            font-family: "Jura";
+            border-radius: .7rem;
+            border: .3px solid black;
+            /* filter: blur(1px); */
+            
+        }
+        :hover{
+            background-color: transparent;
+            border: 1px solid black;
+            color: black;
+        }
+    }
+
+}
+
+
